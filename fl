@@ -1,0 +1,15 @@
+SYEMEN/
+│
+├── frontend/           → مشروع Next.js (واجهة أمامية عربية)
+│   └── ...              (صفحات، مكونات، ملفات إعداد)
+│
+├── backend/            → مشروع API Express.js (إدارة البيانات والمصادقة)
+│   └── ...              (routes, controllers, models, إلخ)
+│
+├── database/           → ملفات قاعدة البيانات (PostgreSQL, schema.sql)
+│   └── schema.sql
+│
+├── uiux/               → ملفات التصميم (Figma, PNG, شرح PDF)
+│   └── ...
+│
+└── README.md           → ملف شرح المشروع الكامل (بالعربية)
