@@ -1,0 +1,18 @@
+# make_structure.sh
+mkdir -p SYEMEN/{frontend/pages,frontend/components,frontend/public/assets,frontend/locales/ar,backend/routes,backend/controllers,backend/models,backend/middleware,backend/config,database,uiux/screenshots}
+touch SYEMEN/frontend/package.json
+touch SYEMEN/frontend/pages/index.js
+touch SYEMEN/frontend/pages/_app.js
+touch SYEMEN/frontend/components/Navbar.js
+touch SYEMEN/frontend/public/assets/logo.png
+touch SYEMEN/frontend/locales/ar/common.json
+touch SYEMEN/backend/package.json
+touch SYEMEN/backend/app.js
+touch SYEMEN/backend/routes/projects.js
+touch SYEMEN/backend/controllers/projectsController.js
+touch SYEMEN/backend/models/Project.js
+touch SYEMEN/backend/config/db.js
+touch SYEMEN/database/schema.sql
+touch SYEMEN/uiux/ui-design-explainer.pdf
+touch SYEMEN/uiux/screenshots/homepage-ar.png
+touch SYEMEN/README.md
