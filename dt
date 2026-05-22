@@ -1,0 +1,14 @@
+export default function Navbar() {
+  return (
+    <nav style={{ background: '#27ae60', color: '#fff', padding: '8px 16px', display: 'flex', justifyContent: 'space-between' }}>
+      <div>
+        <img src="/assets/logo.png" alt="شعار إحياء" width={40} style={{ verticalAlign: 'middle' }} />
+        <span style={{ fontWeight: 'bold', marginRight: 8 }}>إحياء</span>
+      </div>
+      <div>
+        <a href="/" style={{ color: '#fff', margin: '0 12px' }}>الرئيسية</a>
+        <a href="#" style={{ color: '#fff', margin: '0 12px' }}>عن التطبيق</a>
+      </div>
+    </nav>
+  );
+}
